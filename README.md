@@ -11,9 +11,16 @@ Cost optimisation, Economic modelling, Energy transition, Historical analysis, R
 Working paper: ...
 
 ### Description:
-The folders are structured as follows: The folder [01_Basic Model](01_Basic%20Model/) contains ...
+The folders are structured as follows.
+<br> The folder [01_Basic Model](01_Basic%20Model/) contains:
 - two separate GAMS files for the model, one for reading and determining the parameters for Germany (DE) and Texas (TX) (Data_Input.gms) and one for declaring the variables and model constraints in Model.gms,
 - an opt.file for the cplex solver,
 - a cost analysis for the various technologies to determine the investment costs (see [01_Cost Analysis](01_Basic%20Model/01_Cost%20Analysis/)),
 - final input data for the historical and future time period in [02_Input Data](01_Basic%20Model/02_Input%20Data/) (this is further subdivided into hourly input data, such as demand, trade, availability factors for RES, and annual values, such as investment costs, fuel and carbon prices and applies separately to both systems), and
 - result files for both electricty systems for the historical and future time period in [03_Results](01_Basic%20Model/03_Results/)
+
+The figures from the paper are located in [02_Figures](02_Figures/).
+<br> The customized model for the EEM26 conference in Trondheim can be found in [03_Adjusted Model EEM26](03_Adjusted%20Model%20EEM26/)
+
+### Framework:
+![](02_Figures/01_Framework.png)
