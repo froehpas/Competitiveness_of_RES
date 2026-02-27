@@ -11,14 +11,11 @@ This repository contains the code and data of our study submitted to the EEM2026
 | ![](03_Figures/National.png) | ![](03_Figures/European.png) |
 
 ## Results
-### Total system costs
-![](03_Figures/TSC.png)
-
-### Total system emissions
-![](03_Figures/TSE.png)
-
-### Average system electricity price
-![](03_Figures/TSE.png)
+|Total system costs|Total system emissions|Average system electricity price
+|:--------:|:--------:|:--------:|
+| ![](03_Figures/TSC.png) | ![](03_Figures/TSE.png) | ![](03_Figures/AEP.png) |
 
 ### Node-specific ratio of European and national RES generation
+|Nodes|Bars|
+|:--------:|:--------:|
 | ![](03_Figures/Nodes.png) | ![](03_Figures/Bars.png) |
