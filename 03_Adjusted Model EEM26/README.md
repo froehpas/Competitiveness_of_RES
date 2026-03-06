@@ -1,6 +1,6 @@
-# ***European Renewable Energy Targets - Better Together?***
+# ***European Renewable Energy Targets - Benefits of Harmonization?***
 **Pascal Fröhlich, Moritz Böschow, Felix Müsgens**
-> Achieving the goal of climate neutrality in Europe by 2050 poses a major challenge for both individual countries and the overall European energy system. One of these areas to decarbonize is the electricity sector. Regarding the upcoming interim targets for the renewable share on generation for 2030, considerable deviations are already apparent at the country level. Therefore, the study presents two scenarios, one that considers national expansion based on the country targets for 2030 and one that refers to the harmonized European system. Our results show that adjusting country-specific targets would have positive effects on the overall European electricity system. The findings underscore the importance of future cooperation in achieving the set climate targets.
+> This study explores the efficiency gains from European cooperation on renewable expansion. We compare two scenarios for the year 2030. One optimizes national expansion based on existing, country-specific targets for electricity generation from renewable energies. The other achieves the same European production from renewable energies but with a cost-minimal expansion at the most optimal sites all over Europe. Our results shows that European harmonization would have a positive effect: system cost and emissions would decrease.
 
 **Keywords:**
 <br> Renewable Energy Sources, European Targets, Electricity Market, Investment Modelling 
@@ -18,11 +18,9 @@ This repository contains the code and data of our study submitted to the EEM2026
 | ![](03_Figures/National.png) | ![](03_Figures/European.png) |
 
 ## Results
-|Total system costs|Total system emissions|Average system electricity price
+|Total system costs|Total system emissions|Annual generation for each technology
 |:--------:|:--------:|:--------:|
-| ![](03_Figures/TSC.png) | ![](03_Figures/TSE.png) | ![](03_Figures/AEP.png) |
+| ![](03_Figures/TSC.png) | ![](03_Figures/TSE.png) | ![](03_Figures/Technology.png) |
 
-### Node-specific ratio of European and national RES generation
-|Nodes|Bars|
-|:--------:|:--------:|
-| ![](03_Figures/Nodes.png) | ![](03_Figures/Bars.png) |
+### Country-specific ratio of European and national RES generation
+![](03_Figures/Bars.png)
