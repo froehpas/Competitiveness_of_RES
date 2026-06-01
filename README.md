@@ -20,7 +20,6 @@ The folders are structured as follows.
 - result files for both electricty systems for the historical and future time period in [03_Results](01_Basic%20Model/03_Results/)
 
 The figures from the paper are located in [02_Figures](02_Figures/).
-<br> The customized model for the EEM26 conference in Trondheim can be found in [03_Adjusted Model EEM26](03_Adjusted%20Model%20EEM26/)
 
 ### Framework:
 ![](02_Figures/01_Framework.png)
