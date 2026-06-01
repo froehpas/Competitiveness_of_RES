@@ -260,8 +260,8 @@ efficiency_renew(renew) = inputdata_renew(renew,'efficiency')
 ;
 
 
-capfactor_renew_min('reservoir',year,hour) = capfactor_reservoir_min(year,hour)
-;
+*capfactor_renew_min('reservoir',year,hour) = capfactor_reservoir_min(year,hour)
+*;
 
 renew_ncurt(renew)$((inputdata_renew(renew,'renew_curt') eq 0) AND (inputdata_renew(renew,'renew_disp') eq 0)) = YES
 ;

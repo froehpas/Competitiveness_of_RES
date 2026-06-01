@@ -78,7 +78,6 @@ EQ9_GEN_CONV_up                          Upper bound for GEN_CONV
 EQ10_GEN_CONV_MIN_lo                     Lower bound for GEN_CONV_MIN
 EQ12_GEN_RENEW_up                        Upper bound for GEN_RENEW
 EQ14_GEN_RENEW_reservoir_up              Upper bound for reservoir generation
-EQ15_GEN_RENEW_reservoir_lo              Lower bound for reservoir generation
 EQ16_GEN_RENEW_curt                      Definition of GEN_RENEW for curtailable technologies
 EQ17_GEN_RENEW_ncurt                     Definition of GEN_RENEW for non-curtailable technologies
 EQ18_Stor_Cap                            Definition of storage Capacity with duration
@@ -134,10 +133,7 @@ EQ3_COST_INV(year)..                COST_INV(year) =E=
                                                                 )                                 
                                                             +  sum(stor,
                                                                 cinv_MW_stor(stor,year) * CAP_STOR(stor,year)
-                                                                )
-                                                            +  sum(stor,
-                                                                cinv_MWh_stor(stor,year) * (CAP_STOR(stor,year) * duration_stor(stor,year))
-                                                                )  
+                                                                ) 
                                                             
 ;
 
@@ -206,16 +202,9 @@ EQ12_GEN_RENEW_up(renew_disp,year,hour)..    GEN_RENEW(renew_disp,year,hour) =L=
 ;
 
 
-********************************************** Maximum level of generation for reservoir **********************************************
+********************************************** Level of generation for reservoir **********************************************
 
 EQ14_GEN_RENEW_reservoir_up(year,hour)..     GEN_RENEW('reservoir',year,hour) =L= capfactor_renew_max('reservoir',year,hour)
-                                                    * CAP_RENEW('reservoir',year)
-;
-
-
-********************************************** Minimum level of generation for reservoir **********************************************
-
-EQ15_GEN_RENEW_reservoir_lo(year,hour)..     GEN_RENEW('reservoir',year,hour) =G= capfactor_renew_min('reservoir',year,hour)
                                                     * CAP_RENEW('reservoir',year)
 ;
 
@@ -318,7 +307,6 @@ EQ9_GEN_CONV_up
 EQ10_GEN_CONV_MIN_lo
 EQ12_GEN_RENEW_up
 EQ14_GEN_RENEW_reservoir_up
-EQ15_GEN_RENEW_reservoir_lo
 EQ16_GEN_RENEW_curt
 EQ17_GEN_RENEW_ncurt
 EQ18_Stor_Cap
