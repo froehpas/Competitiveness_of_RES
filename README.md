@@ -8,7 +8,7 @@
 Cost optimisation, Economic modelling, Energy transition, Historical analysis, Renewable energy expansion
 
 ### Links:
-Working paper: ...
+Working paper: https://arxiv.org/pdf/2606.17063
 
 ### Description:
 The folders are structured as follows.
